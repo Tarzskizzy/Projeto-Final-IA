@@ -11,7 +11,11 @@ O objetivo é utilizar uma Rede Bayesiana para estimar a gravidade de pacientes 
 
 Arquivo principal do projeto.
 
-É responsável por executar o fluxo completo da aplicação, chamando os demais módulos na ordem correta.
+É responsável por orquestrar o fluxo completo da aplicação, executando:
+
+Os experimentos comparativos de custo acumulado (FIFO vs. Gulosa vs. A*) para os cenários pequeno (6 pacientes) e médio (20 pacientes), acionando o módulo experimentos.py.
+
+A geração e exibição detalhada da fila com a ordem ótima de atendimento calculada pelo algoritmo A* para ambos os cenários simulados.
 
 ---
 
