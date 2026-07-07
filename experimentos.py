@@ -47,10 +47,6 @@ def executar_experimento(quantidade_pacientes, nome_cenario):
     else:
         print("-> [A*]     Erro: Não foi possível calcular a fila.")
 
-    custo_recalculado = calcular_custo_simulacao(fila_otimizada, dict_suporte)
-
-    print(custo_astar)
-    print(custo_recalculado)
 
 if __name__ == "__main__":
     # Executa os dois cenários
