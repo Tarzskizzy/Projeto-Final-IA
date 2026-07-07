@@ -51,7 +51,9 @@ def executar_experimento(quantidade_pacientes, nome_cenario):
 
     print(custo_astar)
     print(custo_recalculado)
-# Executa os dois cenários
-executar_experimento(6, "CENÁRIO PEQUENO")
-executar_experimento(20, "CENÁRIO MÉDIO")
+
+if __name__ == "__main__":
+    # Executa os dois cenários
+    executar_experimento(6, "CENÁRIO PEQUENO")
+    executar_experimento(20, "CENÁRIO MÉDIO")
 
